@@ -6,8 +6,6 @@
 /* first section design */
 .first-section-container {
     width: 1920px;
-    height: 850px;
-    flex-shrink: 0;
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
@@ -56,6 +54,7 @@
     width: 635px;
     height: 800px;
     background-position: bottom;
+    
 }
 
 .first-image {
@@ -63,6 +62,12 @@
 }
 
 /* second section  */
+.second-main{
+    
+    margin: 0px auto;
+    /* align-items: center; */
+    background-position: center;
+}
 .title-two {
     color: #272727;
     text-align: center;
@@ -121,12 +126,17 @@
 
 /* section-three  */
 .third-section-container {
+    margin-top: 50px;
     width: 1922px;
     height: 620px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
-    /* justify-content: space-around; */
+    padding: 40px 0;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
 }
 
 .title-three {
@@ -164,6 +174,7 @@
     border-radius: 8px;
     background: #E55473;
     color: white;
+    align-items: center;
 }
 
 /* section-fourth  */
